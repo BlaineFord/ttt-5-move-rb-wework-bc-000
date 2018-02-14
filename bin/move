@@ -3,3 +3,12 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+
+puts "What is your move?"
+answer = gets.strip
+
+position = answer.to_i - 1
+
+move
+
+
